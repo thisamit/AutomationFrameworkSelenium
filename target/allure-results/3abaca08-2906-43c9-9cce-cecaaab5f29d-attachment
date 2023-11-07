@@ -1,0 +1,1 @@
+Get text of element By.xpath: //tr[@class = 'cart-subtotal']//td[@class = 'text-right']//span

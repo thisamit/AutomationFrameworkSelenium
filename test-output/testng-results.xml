@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="2" total="19" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-02T10:43:06 IST" name="Regression Tests CMS" finished-at="2023-11-02T10:43:59 IST" duration-ms="53028">
+    <groups>
+    </groups>
+    <test started-at="2023-11-02T10:43:06 IST" name="Login Test CMS Chrome" finished-at="2023-11-02T10:43:59 IST" duration-ms="53028">
+      <class name="com.anhtester.projects.cms.testcases.LoginTest">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:06 IST" name="createDriver" finished-at="2023-11-02T10:43:15 IST" duration-ms="9619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:06 IST" name="createDriver" finished-at="2023-11-02T10:43:16 IST" duration-ms="9780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:06 IST" name="createDriver" finished-at="2023-11-02T10:43:16 IST" duration-ms="9696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:06 IST" name="createDriver" finished-at="2023-11-02T10:43:15 IST" duration-ms="9590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:06 IST" name="createDriver" finished-at="2023-11-02T10:43:15 IST" duration-ms="9542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="TC_LoginSuccessWithCustomerAccount()[pri:5, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:15 IST" name="TC_LoginSuccessWithCustomerAccount" finished-at="2023-11-02T10:43:59 IST" duration-ms="43184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_LoginSuccessWithCustomerAccount -->
+        <test-method signature="TC_LoginFailWithIncorrectPassword()[pri:4, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:15 IST" name="TC_LoginFailWithIncorrectPassword" finished-at="2023-11-02T10:43:54 IST" duration-ms="38594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_LoginFailWithIncorrectPassword -->
+        <test-method signature="TC_LoginFailWithEmailDoesNotExist()[pri:2, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:15 IST" name="TC_LoginFailWithEmailDoesNotExist" finished-at="2023-11-02T10:43:57 IST" duration-ms="41993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_LoginFailWithEmailDoesNotExist -->
+        <test-method signature="TC_LoginFailWithNullPassword()[pri:3, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:16 IST" name="TC_LoginFailWithNullPassword" finished-at="2023-11-02T10:43:57 IST" duration-ms="41351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_LoginFailWithNullPassword -->
+        <test-method signature="TC_LoginFailWithEmailNull()[pri:1, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:16 IST" name="TC_LoginFailWithEmailNull" finished-at="2023-11-02T10:43:50 IST" duration-ms="34084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_LoginFailWithEmailNull -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:50 IST" name="closeDriver" finished-at="2023-11-02T10:43:52 IST" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:54 IST" name="closeDriver" finished-at="2023-11-02T10:43:54 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:57 IST" name="closeDriver" finished-at="2023-11-02T10:43:58 IST" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:57 IST" name="closeDriver" finished-at="2023-11-02T10:43:58 IST" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.cms.testcases.LoginTest@37c5284a]" started-at="2023-11-02T10:43:59 IST" name="closeDriver" finished-at="2023-11-02T10:43:59 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.anhtester.projects.cms.testcases.LoginTest -->
+    </test> <!-- Login Test CMS Chrome -->
+  </suite> <!-- Regression Tests CMS -->
+  <suite started-at="2023-11-02T10:47:23 IST" name="Regression Test CRM and CMS" finished-at="2023-11-02T10:47:23 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Regression Test CRM and CMS -->
+  <suite started-at="2023-11-02T10:40:41 IST" name="Regression Tests CRM" finished-at="2023-11-02T10:41:38 IST" duration-ms="56036">
+    <groups>
+    </groups>
+    <test started-at="2023-11-02T10:40:41 IST" name="SignIn Test" finished-at="2023-11-02T10:41:38 IST" duration-ms="56036">
+      <class name="com.anhtester.projects.crm.testcases.SignInTest">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:40:42 IST" name="createDriver" finished-at="2023-11-02T10:40:56 IST" duration-ms="14648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:40:42 IST" name="createDriver" finished-at="2023-11-02T10:40:56 IST" duration-ms="14647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:40:42 IST" name="createDriver" finished-at="2023-11-02T10:40:56 IST" duration-ms="14646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:40:55 IST" name="createDriver" finished-at="2023-11-02T10:41:04 IST" duration-ms="9045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:40:55 IST" name="createDriver" finished-at="2023-11-02T10:41:04 IST" duration-ms="9562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="signInWithClientRole()[pri:3, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:40:57 IST" name="signInWithClientRole" description="TC03_signInWithClientRole" finished-at="2023-11-02T10:41:23 IST" duration-ms="26031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInWithClientRole -->
+        <test-method signature="loginPerfexCRM()[pri:4, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:40:57 IST" name="loginPerfexCRM" description="TC04_loginPerfexCRM" finished-at="2023-11-02T10:41:34 IST" duration-ms="37151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPerfexCRM -->
+        <test-method signature="signInWithAdminRole()[pri:2, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:40:57 IST" name="signInWithAdminRole" description="TC02_signInWithAdminRole" finished-at="2023-11-02T10:41:26 IST" duration-ms="29305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInWithAdminRole -->
+        <test-method signature="signInWithDataProvider(java.util.Hashtable)[pri:1, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:41:04 IST" name="signInWithDataProvider" description="TC01_signInWithDataProvider" data-provider="getSignInDataHashTable" finished-at="2023-11-02T10:41:35 IST" duration-ms="30639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{EMAIL=client@demo.com, EXPECTED_ERROR=, EXPECTED_URL=, TESTCASENAME=testSignInData, EXPECTED_TITLE=, PASSWORD=dw5AQDhu9+WsEsWisMJISA==}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInWithDataProvider -->
+        <test-method signature="signInWithDataProvider(java.util.Hashtable)[pri:1, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:41:04 IST" name="signInWithDataProvider" description="TC01_signInWithDataProvider" data-provider="getSignInDataHashTable" finished-at="2023-11-02T10:41:37 IST" duration-ms="32863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{EMAIL=admin@demo.com, EXPECTED_ERROR=, EXPECTED_URL=, TESTCASENAME=testSignInData, EXPECTED_TITLE=, PASSWORD=dw5AQDhu9+WsEsWisMJISA==}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInWithDataProvider -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:41:23 IST" name="closeDriver" finished-at="2023-11-02T10:41:24 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:41:26 IST" name="closeDriver" finished-at="2023-11-02T10:41:27 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:41:34 IST" name="closeDriver" finished-at="2023-11-02T10:41:34 IST" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:41:35 IST" name="closeDriver" finished-at="2023-11-02T10:41:35 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.crm.testcases.SignInTest@42b21d99]" started-at="2023-11-02T10:41:37 IST" name="closeDriver" finished-at="2023-11-02T10:41:37 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.anhtester.projects.crm.testcases.SignInTest -->
+    </test> <!-- SignIn Test -->
+  </suite> <!-- Regression Tests CRM -->
+  <suite started-at="2023-11-02T10:41:54 IST" name="Regression Tests CRM (0)" finished-at="2023-11-02T10:43:00 IST" duration-ms="65916">
+    <groups>
+    </groups>
+    <test started-at="2023-11-02T10:41:54 IST" name="Client Test on Chrome" finished-at="2023-11-02T10:43:00 IST" duration-ms="65916">
+      <class name="com.anhtester.projects.crm.testcases.ClientTest">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.crm.testcases.ClientTest@2e590b]" started-at="2023-11-02T10:41:54 IST" name="createDriver" finished-at="2023-11-02T10:42:00 IST" duration-ms="6569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.crm.testcases.ClientTest@2e590b]" started-at="2023-11-02T10:41:54 IST" name="createDriver" finished-at="2023-11-02T10:42:01 IST" duration-ms="6630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.crm.testcases.ClientTest@2e590b]" started-at="2023-11-02T10:41:54 IST" name="createDriver" finished-at="2023-11-02T10:42:01 IST" duration-ms="6515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="testSearchClient()[pri:2, instance:com.anhtester.projects.crm.testcases.ClientTest@2e590b]" started-at="2023-11-02T10:42:00 IST" name="testSearchClient" description="TC06_testSearchClient" finished-at="2023-11-02T10:43:00 IST" duration-ms="59140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchClient -->
+        <test-method signature="testAddClient(java.util.Hashtable)[pri:1, instance:com.anhtester.projects.crm.testcases.ClientTest@2e590b]" started-at="2023-11-02T10:42:01 IST" name="testAddClient" description="TC05_testAddClient" data-provider="getClientDataHashTable" finished-at="2023-11-02T10:42:59 IST" duration-ms="58193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ADDRESS=Address 2, APPLICATION=HRM, PHONE=123456, CITY=Rochester, STATUS=, CLIENT_GROUP=Gold, VAT=30, TESTCASENAME=testAddClient, WEBSITE=https://anhtester.com, COMPANY_NAME=Anh Tester Client 0108A2, COUNTRY=USA, ZIP=1002, STATE=SA, OWNER=Richard Gray}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddClient -->
+        <test-method signature="testAddClient(java.util.Hashtable)[pri:1, instance:com.anhtester.projects.crm.testcases.ClientTest@2e590b]" started-at="2023-11-02T10:42:01 IST" name="testAddClient" description="TC05_testAddClient" data-provider="getClientDataHashTable" finished-at="2023-11-02T10:42:58 IST" duration-ms="57566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ADDRESS=Address 1, APPLICATION=CRM, PHONE=123456, CITY=Rochester, STATUS=, CLIENT_GROUP=VIP, VAT=10, TESTCASENAME=testAddClient, WEBSITE=https://anhtester.com, COMPANY_NAME=Anh Tester Client 0108A1, COUNTRY=USA, ZIP=1001, STATE=SA, OWNER=Mark Thomas}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddClient -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.crm.testcases.ClientTest@2e590b]" started-at="2023-11-02T10:42:58 IST" name="closeDriver" finished-at="2023-11-02T10:42:59 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.crm.testcases.ClientTest@2e590b]" started-at="2023-11-02T10:42:59 IST" name="closeDriver" finished-at="2023-11-02T10:42:59 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.crm.testcases.ClientTest@2e590b]" started-at="2023-11-02T10:43:00 IST" name="closeDriver" finished-at="2023-11-02T10:43:00 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.anhtester.projects.crm.testcases.ClientTest -->
+    </test> <!-- Client Test on Chrome -->
+  </suite> <!-- Regression Tests CRM (0) -->
+  <suite started-at="2023-11-02T10:44:05 IST" name="Regression Tests CMS (0)" finished-at="2023-11-02T10:45:03 IST" duration-ms="57185">
+    <groups>
+    </groups>
+    <test started-at="2023-11-02T10:44:05 IST" name="Tests Add Product CMS Chrome" finished-at="2023-11-02T10:45:03 IST" duration-ms="57185">
+      <class name="com.anhtester.projects.cms.testcases.AddProductTest">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.cms.testcases.AddProductTest@b5b9333]" started-at="2023-11-02T10:44:05 IST" name="createDriver" finished-at="2023-11-02T10:44:12 IST" duration-ms="6856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method retried="true" signature="TC_AddNewProductAdmin(java.util.Hashtable)[pri:0, instance:com.anhtester.projects.cms.testcases.AddProductTest@b5b9333]" started-at="2023-11-02T10:44:12 IST" name="TC_AddNewProductAdmin" data-provider="data_provider_add_product" finished-at="2023-11-02T10:44:32 IST" duration-ms="19271" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{category=Pie, image=gio-qua-2.jpg, quantity=300, weight=1500, unitPrice=500000, productName=Giỏ quà Tết, unit=g, description=Giỏ Quà Tết cao cấp, sang trọng dành cho mùa Tết 2024, hứa hẹn sẽ là món quà tinh thần ý nghĩa nhất cho người thân, discount=2, discountDate=01-01-2023 00:00:00 to 31-01-2024 00:00:00, tags=quatet}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument: File not found : /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src\test\resources\testdataCMS\gio-qua-2.jpg
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7424468843c7d016b46002c5221a95f5, sendKeysToElement {id=A5A058D6EFDB4A68F1C4422A7B8189B5_element_157, value=[Ljava.lang.CharSequence;@113b2d20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/n5/8_wzkl796_n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52889}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52889/devtoo..., se:cdpVersion: 118.0.5993.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (7424468843c7d016b46002c5221a95f5)] -> xpath: //input[@class = 'uppy-Dashboard-input']]
+Session ID: 7424468843c7d016b46002c5221a95f5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src\test\resources\testdataCMS\gio-qua-2.jpg
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7424468843c7d016b46002c5221a95f5, sendKeysToElement {id=A5A058D6EFDB4A68F1C4422A7B8189B5_element_157, value=[Ljava.lang.CharSequence;@113b2d20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/n5/8_wzkl796_n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52889}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52889/devtoo..., se:cdpVersion: 118.0.5993.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (7424468843c7d016b46002c5221a95f5)] -> xpath: //input[@class = 'uppy-Dashboard-input']]
+Session ID: 7424468843c7d016b46002c5221a95f5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+at com.anhtester.projects.cms.admin.pages.products.AddProductPage.addProduct(AddProductPage.java:84)
+at com.anhtester.projects.cms.testcases.AddProductTest.TC_AddNewProductAdmin(AddProductTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AddNewProductAdmin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.cms.testcases.AddProductTest@b5b9333]" started-at="2023-11-02T10:44:33 IST" name="closeDriver" finished-at="2023-11-02T10:44:34 IST" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.cms.testcases.AddProductTest@b5b9333]" started-at="2023-11-02T10:44:34 IST" name="createDriver" finished-at="2023-11-02T10:44:37 IST" duration-ms="2965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="TC_AddNewProductAdmin(java.util.Hashtable)[pri:0, instance:com.anhtester.projects.cms.testcases.AddProductTest@b5b9333]" started-at="2023-11-02T10:44:37 IST" name="TC_AddNewProductAdmin" data-provider="data_provider_add_product" finished-at="2023-11-02T10:44:59 IST" duration-ms="22481" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{category=Pie, image=gio-qua-2.jpg, quantity=300, weight=1500, unitPrice=500000, productName=Giỏ quà Tết, unit=g, description=Giỏ Quà Tết cao cấp, sang trọng dành cho mùa Tết 2024, hứa hẹn sẽ là món quà tinh thần ý nghĩa nhất cho người thân, discount=2, discountDate=01-01-2023 00:00:00 to 31-01-2024 00:00:00, tags=quatet}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument: File not found : /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src\test\resources\testdataCMS\gio-qua-2.jpg
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf32e7cf936c7bf104c31651492bd736, sendKeysToElement {id=F88FE127B50F1213D6C61C89185BAE03_element_120, value=[Ljava.lang.CharSequence;@1ea4a6b7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/n5/8_wzkl796_n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52909/devtoo..., se:cdpVersion: 118.0.5993.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (bf32e7cf936c7bf104c31651492bd736)] -> xpath: //input[@class = 'uppy-Dashboard-input']]
+Session ID: bf32e7cf936c7bf104c31651492bd736]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src\test\resources\testdataCMS\gio-qua-2.jpg
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf32e7cf936c7bf104c31651492bd736, sendKeysToElement {id=F88FE127B50F1213D6C61C89185BAE03_element_120, value=[Ljava.lang.CharSequence;@1ea4a6b7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/n5/8_wzkl796_n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52909/devtoo..., se:cdpVersion: 118.0.5993.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (bf32e7cf936c7bf104c31651492bd736)] -> xpath: //input[@class = 'uppy-Dashboard-input']]
+Session ID: bf32e7cf936c7bf104c31651492bd736
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+at com.anhtester.projects.cms.admin.pages.products.AddProductPage.addProduct(AddProductPage.java:84)
+at com.anhtester.projects.cms.testcases.AddProductTest.TC_AddNewProductAdmin(AddProductTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AddNewProductAdmin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.cms.testcases.AddProductTest@b5b9333]" started-at="2023-11-02T10:45:02 IST" name="closeDriver" finished-at="2023-11-02T10:45:03 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.anhtester.projects.cms.testcases.AddProductTest -->
+    </test> <!-- Tests Add Product CMS Chrome -->
+  </suite> <!-- Regression Tests CMS (0) -->
+  <suite started-at="2023-11-02T10:45:11 IST" name="Regression Tests CMS (1)" finished-at="2023-11-02T10:47:10 IST" duration-ms="119233">
+    <groups>
+    </groups>
+    <test started-at="2023-11-02T10:45:11 IST" name="Tests Order Product CMS Chrome" finished-at="2023-11-02T10:47:10 IST" duration-ms="119233">
+      <class name="com.anhtester.projects.cms.testcases.OrderTest">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.cms.testcases.OrderTest@3cdff901]" started-at="2023-11-02T10:45:11 IST" name="createDriver" finished-at="2023-11-02T10:45:14 IST" duration-ms="2896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method retried="true" signature="TC_OrderProduct()[pri:0, instance:com.anhtester.projects.cms.testcases.OrderTest@3cdff901]" started-at="2023-11-02T10:45:14 IST" name="TC_OrderProduct" finished-at="2023-11-02T10:45:57 IST" duration-ms="43018" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Add to cart is failed. By.xpath: //h3[normalize-space()='Item added to your cart!']]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Add to cart is failed. By.xpath: //h3[normalize-space()='Item added to your cart!']
+at org.testng.Assert.fail(Assert.java:111)
+at com.anhtester.keywords.WebUI.verifyElementVisible(WebUI.java:2068)
+at com.anhtester.projects.cms.users.pages.order.OrderPage.order(OrderPage.java:55)
+at com.anhtester.projects.cms.testcases.OrderTest.TC_OrderProduct(OrderTest.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_OrderProduct -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.cms.testcases.OrderTest@3cdff901]" started-at="2023-11-02T10:45:58 IST" name="closeDriver" finished-at="2023-11-02T10:45:58 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.anhtester.projects.cms.testcases.OrderTest@3cdff901]" started-at="2023-11-02T10:45:58 IST" name="createDriver" finished-at="2023-11-02T10:46:02 IST" duration-ms="3592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="TC_OrderProduct()[pri:0, instance:com.anhtester.projects.cms.testcases.OrderTest@3cdff901]" started-at="2023-11-02T10:46:02 IST" name="TC_OrderProduct" finished-at="2023-11-02T10:47:07 IST" duration-ms="65473" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Add to cart is failedBy.xpath: //h3[normalize-space()='Item added to your cart!']]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Add to cart is failedBy.xpath: //h3[normalize-space()='Item added to your cart!']
+at org.testng.Assert.fail(Assert.java:111)
+at com.anhtester.keywords.WebUI.verifyElementVisible(WebUI.java:2068)
+at com.anhtester.projects.cms.users.pages.order.OrderPage.order(OrderPage.java:73)
+at com.anhtester.projects.cms.testcases.OrderTest.TC_OrderProduct(OrderTest.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_OrderProduct -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.anhtester.projects.cms.testcases.OrderTest@3cdff901]" started-at="2023-11-02T10:47:10 IST" name="closeDriver" finished-at="2023-11-02T10:47:10 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.anhtester.projects.cms.testcases.OrderTest -->
+    </test> <!-- Tests Order Product CMS Chrome -->
+  </suite> <!-- Regression Tests CMS (1) -->
+</testng-results>

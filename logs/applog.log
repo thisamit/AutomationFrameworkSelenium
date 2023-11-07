@@ -1,0 +1,1339 @@
+[INFO] 02-11-2023 10:29:16 [main] [LogUtils] - Loaded all properties files.
+[INFO] 02-11-2023 10:29:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 02-11-2023 10:29:19 [main] [LogUtils] - Starting Suite: Regression Tests CMS
+[INFO] 02-11-2023 10:29:19 [TestNG-tests-3] [LogUtils] - Excel File: /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:29:19 [TestNG-tests-4] [LogUtils] - Excel File: /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:29:19 [TestNG-tests-3] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:29:19 [TestNG-tests-2] [LogUtils] - Excel File: /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:29:19 [TestNG-tests-4] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:29:19 [TestNG-tests-2] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:29:19 [TestNG-tests-1] [LogUtils] - Excel File: /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:29:19 [TestNG-tests-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:29:21 [TestNG-tests-2] [LogUtils] - Row: 2 - Column: 11
+[INFO] 02-11-2023 10:29:21 [TestNG-tests-4] [LogUtils] - Row: 2 - Column: 11
+[INFO] 02-11-2023 10:29:21 [TestNG-tests-1] [LogUtils] - Row: 2 - Column: 11
+[INFO] 02-11-2023 10:29:21 [TestNG-tests-2] [LogUtils] - StartRow: 2 - EndRow: 2
+[INFO] 02-11-2023 10:29:21 [TestNG-tests-4] [LogUtils] - StartRow: 2 - EndRow: 2
+[INFO] 02-11-2023 10:29:21 [TestNG-tests-1] [LogUtils] - StartRow: 2 - EndRow: 2
+[INFO] 02-11-2023 10:29:21 [TestNG-tests-3] [LogUtils] - Row: 2 - Column: 11
+[INFO] 02-11-2023 10:29:21 [TestNG-tests-3] [LogUtils] - StartRow: 2 - EndRow: 2
+[INFO] 02-11-2023 10:29:36 [TestNG-tests-1] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:29:36 [TestNG-tests-2] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:29:42 [TestNG-tests-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:29:42 [TestNG-tests-2] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:29:42 [TestNG-tests-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:29:42 [TestNG-tests-2] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:29:42 [TestNG-tests-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:29:42 [TestNG-tests-2] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:29:42 [TestNG-tests-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:29:42 [TestNG-tests-2] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:29:45 [TestNG-tests-3] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:29:45 [TestNG-tests-3] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:29:45 [TestNG-tests-3] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:29:45 [TestNG-tests-3] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:29:45 [TestNG-tests-3] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:29:47 [TestNG-tests-4] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:29:50 [TestNG-tests-2] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:29:50 [TestNG-tests-1] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:29:50 [TestNG-tests-3] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:29:50 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:29:50 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:29:50 [TestNG-tests-2] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:29:50 [TestNG-tests-3] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:29:51 [TestNG-tests-1] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:29:51 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:29:51 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:29:51 [TestNG-tests-3] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:29:51 [TestNG-tests-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:29:51 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:29:51 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:29:52 [TestNG-tests-2] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:29:52 [TestNG-tests-2] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:29:52 [TestNG-tests-2] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:29:52 [TestNG-tests-2] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:29:52 [TestNG-tests-4] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:29:52 [TestNG-tests-4] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:29:53 [TestNG-tests-4] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:29:53 [TestNG-tests-4] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:29:53 [TestNG-tests-2] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:29:53 [TestNG-tests-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:29:54 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:29:54 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:29:54 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:29:54 [TestNG-tests-3] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:29:54 [TestNG-tests-1] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:29:54 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:29:55 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:29:55 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:29:55 [TestNG-tests-3] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:29:55 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:29:56 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:29:58 [TestNG-tests-4] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:30:00 [TestNG-tests-1] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:30:00 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:30:00 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:30:01 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:30:01 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:30:01 [TestNG-tests-3] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:30:01 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:30:01 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:30:01 [TestNG-tests-1] [LogUtils] - Set text Giỏ quà Tết mEwzI on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:30:02 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:30:02 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:30:02 [TestNG-tests-4] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:30:02 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:30:02 [TestNG-tests-4] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:30:02 [TestNG-tests-3] [LogUtils] - Set text Giỏ quà Tết oQbPv on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:30:03 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:30:03 [TestNG-tests-1] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:30:03 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:30:03 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:30:04 [TestNG-tests-1] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:30:04 [TestNG-tests-3] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:30:04 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:30:04 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:30:04 [TestNG-tests-1] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[ERROR] 02-11-2023 10:30:04 [TestNG-tests-2] [LogUtils] - Element not exist. By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:30:05 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:30:05 [TestNG-tests-3] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:30:05 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:30:05 [TestNG-tests-1] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:30:05 [TestNG-tests-3] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:30:05 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:30:05 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:30:06 [TestNG-tests-3] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:30:06 [TestNG-tests-1] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:30:06 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:30:06 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:30:06 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:30:06 [TestNG-tests-3] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:30:06 [TestNG-tests-1] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:30:07 [TestNG-tests-4] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:30:07 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:30:07 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:30:07 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:30:07 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:30:07 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:30:07 [TestNG-tests-4] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:30:08 [TestNG-tests-3] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:30:08 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:30:08 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:30:09 [TestNG-tests-1] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:30:09 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:30:10 [TestNG-tests-3] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Upload New']
+[WARN] 02-11-2023 10:30:12 [TestNG-tests-2] [LogUtils] - Test case: TC_AddNewProductAdmin is skipped.
+[INFO] 02-11-2023 10:30:13 [TestNG-tests-2] [LogUtils] - Driver for Screenshot: SafariDriver: Safari on mac (3C68E7F8-159E-4E94-8B7D-71CB0FE7FDB1)
+[WARN] 02-11-2023 10:30:13 [TestNG-tests-1] [LogUtils] - Test case: TC_AddNewProductAdmin is skipped.
+[INFO] 02-11-2023 10:30:13 [TestNG-tests-1] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on mac (de1a39287546cc0065ae9e21936382da)
+[INFO] 02-11-2023 10:30:14 [TestNG-tests-1] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:30:14 [TestNG-tests-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[WARN] 02-11-2023 10:30:14 [TestNG-tests-3] [LogUtils] - Test case: TC_AddNewProductAdmin is skipped.
+[INFO] 02-11-2023 10:30:14 [TestNG-tests-3] [LogUtils] - Driver for Screenshot: FirefoxDriver: firefox on mac (c132e2ca-95b1-45c3-bf83-45c512f69264)
+[INFO] 02-11-2023 10:30:15 [TestNG-tests-3] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:30:15 [TestNG-tests-3] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[INFO] 02-11-2023 10:30:15 [TestNG-tests-2] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:30:15 [TestNG-tests-2] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:30:17 [TestNG-tests-4] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:30:17 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:30:18 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:30:18 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:30:19 [TestNG-tests-4] [LogUtils] - Set text Giỏ quà Tết lhXVw on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:30:20 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:30:21 [TestNG-tests-4] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:30:22 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:30:22 [TestNG-tests-4] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:30:23 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:30:23 [TestNG-tests-4] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:30:23 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:30:23 [TestNG-tests-4] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:30:24 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:30:24 [TestNG-tests-1] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:30:24 [TestNG-tests-4] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:30:25 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:30:25 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:30:25 [TestNG-tests-4] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:30:27 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:30:27 [TestNG-tests-4] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Upload New']
+[WARN] 02-11-2023 10:30:28 [TestNG-tests-4] [LogUtils] - Test case: TC_AddNewProductAdmin is skipped.
+[INFO] 02-11-2023 10:30:28 [TestNG-tests-4] [LogUtils] - Driver for Screenshot: EdgeDriver: msedge on mac (de8a6310609ec49a544f19cc0b3d88fb)
+[INFO] 02-11-2023 10:30:29 [TestNG-tests-4] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:30:29 [TestNG-tests-4] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[INFO] 02-11-2023 10:30:29 [TestNG-tests-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:30:29 [TestNG-tests-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:30:29 [TestNG-tests-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:30:29 [TestNG-tests-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:30:33 [TestNG-tests-2] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:30:33 [TestNG-tests-2] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:30:33 [TestNG-tests-2] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:30:33 [TestNG-tests-2] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:30:33 [TestNG-tests-2] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:30:34 [TestNG-tests-1] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:30:34 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:30:35 [TestNG-tests-3] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:30:35 [TestNG-tests-1] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:30:36 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:30:36 [TestNG-tests-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:30:37 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:30:37 [TestNG-tests-2] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:30:38 [TestNG-tests-2] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:30:38 [TestNG-tests-2] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:30:38 [TestNG-tests-2] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:30:38 [TestNG-tests-2] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:30:39 [TestNG-tests-2] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:30:39 [TestNG-tests-2] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:30:39 [TestNG-tests-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:30:39 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:30:39 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:30:39 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:30:39 [TestNG-tests-1] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:30:40 [TestNG-tests-3] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:30:40 [TestNG-tests-3] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:30:40 [TestNG-tests-3] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:30:40 [TestNG-tests-3] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:30:41 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:30:43 [TestNG-tests-3] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:30:43 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:30:43 [TestNG-tests-3] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:30:43 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:30:43 [TestNG-tests-3] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:30:44 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:30:44 [TestNG-tests-1] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:30:44 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:30:44 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:30:44 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:30:45 [TestNG-tests-1] [LogUtils] - Set text Giỏ quà Tết lZpun on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:30:45 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:30:47 [TestNG-tests-1] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:30:48 [TestNG-tests-3] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:30:48 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:30:48 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:30:48 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:30:49 [TestNG-tests-1] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:30:49 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:30:49 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:30:49 [TestNG-tests-3] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:30:49 [TestNG-tests-1] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[ERROR] 02-11-2023 10:30:49 [TestNG-tests-2] [LogUtils] - Element not exist. By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:30:50 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[ERROR] 02-11-2023 10:30:51 [TestNG-tests-2] [LogUtils] - Test case: TC_AddNewProductAdmin is failed.
+[INFO] 02-11-2023 10:30:51 [TestNG-tests-2] [LogUtils] - Driver for Screenshot: SafariDriver: Safari on mac (0671F3EA-7BDF-4145-BB5D-3B2054441F13)
+[INFO] 02-11-2023 10:30:52 [TestNG-tests-2] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:30:52 [TestNG-tests-2] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/login
+[ERROR] 02-11-2023 10:30:52 [TestNG-tests-2] [LogUtils] - FAILED !! Screenshot for test case: TC_AddNewProductAdmin
+[ERROR] 02-11-2023 10:30:52 [TestNG-tests-2] [LogUtils] - java.lang.AssertionError: Element not exist. By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:30:52 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:30:52 [TestNG-tests-1] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:30:52 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:30:52 [TestNG-tests-1] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:30:52 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:30:53 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:30:53 [TestNG-tests-1] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:30:53 [TestNG-tests-3] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:30:54 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:30:54 [TestNG-tests-1] [LogUtils] - Verify element visible By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:30:54 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:30:54 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:30:54 [TestNG-tests-1] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:30:56 [TestNG-tests-3] [LogUtils] - Set text Giỏ quà Tết HEyLI on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:30:56 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[ERROR] 02-11-2023 10:30:56 [TestNG-tests-1] [LogUtils] - Test case: TC_AddNewProductAdmin is failed.
+[INFO] 02-11-2023 10:30:56 [TestNG-tests-1] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on mac (d1009aa8a6dc3beb827ab65329b8b24a)
+[INFO] 02-11-2023 10:30:57 [TestNG-tests-1] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:30:57 [TestNG-tests-4] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:30:57 [TestNG-tests-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[ERROR] 02-11-2023 10:30:57 [TestNG-tests-1] [LogUtils] - FAILED !! Screenshot for test case: TC_AddNewProductAdmin
+[ERROR] 02-11-2023 10:30:57 [TestNG-tests-1] [LogUtils] - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src\test\resources\testdataCMS\gio-qua-2.jpg
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1009aa8a6dc3beb827ab65329b8b24a, sendKeysToElement {id=E6328832F7A61EFAD20D4BBD9F62E29F_element_126, value=[Ljava.lang.CharSequence;@2c8ac806}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/n5/8_wzkl796_n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51386}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51386/devtoo..., se:cdpVersion: 118.0.5993.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d1009aa8a6dc3beb827ab65329b8b24a)] -> xpath: //input[@class = 'uppy-Dashboard-input']]
+Session ID: d1009aa8a6dc3beb827ab65329b8b24a
+[INFO] 02-11-2023 10:30:57 [TestNG-tests-3] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:30:58 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:30:58 [TestNG-tests-3] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:30:58 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:30:59 [TestNG-tests-3] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:30:59 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:30:59 [TestNG-tests-3] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:30:59 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:30:59 [TestNG-tests-3] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:31:00 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:31:00 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:31:00 [TestNG-tests-3] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:31:01 [TestNG-tests-3] [LogUtils] - Verify element visible By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:31:02 [TestNG-tests-3] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Upload New']
+[ERROR] 02-11-2023 10:31:02 [TestNG-tests-3] [LogUtils] - Test case: TC_AddNewProductAdmin is failed.
+[INFO] 02-11-2023 10:31:02 [TestNG-tests-3] [LogUtils] - Driver for Screenshot: FirefoxDriver: firefox on mac (ddd40931-118b-4b08-bb9e-322a3de088c9)
+[INFO] 02-11-2023 10:31:02 [TestNG-tests-4] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:31:02 [TestNG-tests-4] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:31:02 [TestNG-tests-4] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:31:02 [TestNG-tests-4] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:31:02 [TestNG-tests-3] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:31:02 [TestNG-tests-3] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[ERROR] 02-11-2023 10:31:02 [TestNG-tests-3] [LogUtils] - FAILED !! Screenshot for test case: TC_AddNewProductAdmin
+[ERROR] 02-11-2023 10:31:02 [TestNG-tests-3] [LogUtils] - org.openqa.selenium.InvalidArgumentException: File not found: /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src\test\resources\testdataCMS\gio-qua-2.jpg
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '21'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ddd40931-118b-4b08-bb9e-322a3de088c9, sendKeysToElement {id=3ee55d8e-fead-4a58-a0b3-95effe767772, value=[Ljava.lang.CharSequence;@11b5c2f0}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:28999, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 1327, moz:profile: /var/folders/n5/8_wzkl796_n..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:28999/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (ddd40931-118b-4b08-bb9e-322a3de088c9)] -> xpath: //input[@class = 'uppy-Dashboard-input']]
+Session ID: ddd40931-118b-4b08-bb9e-322a3de088c9
+[INFO] 02-11-2023 10:31:10 [TestNG-tests-4] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:31:10 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:31:10 [TestNG-tests-4] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:31:10 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:31:10 [TestNG-tests-4] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:31:10 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:31:13 [TestNG-tests-4] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:31:13 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:31:13 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:31:13 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:31:13 [TestNG-tests-4] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:31:14 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:31:16 [TestNG-tests-4] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:31:16 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:31:16 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:31:16 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:31:16 [TestNG-tests-4] [LogUtils] - Set text Giỏ quà Tết sgIor on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:31:16 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:31:17 [TestNG-tests-4] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:31:17 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:31:17 [TestNG-tests-4] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:31:17 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:31:17 [TestNG-tests-4] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:31:17 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:31:18 [TestNG-tests-4] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:31:18 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:31:18 [TestNG-tests-4] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:31:18 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:31:18 [TestNG-tests-4] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:31:18 [TestNG-tests-4] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:31:20 [TestNG-tests-4] [LogUtils] - Scroll to element By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:31:27 [TestNG-tests-4] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Upload New']
+[ERROR] 02-11-2023 10:31:28 [TestNG-tests-4] [LogUtils] - Test case: TC_AddNewProductAdmin is failed.
+[INFO] 02-11-2023 10:31:28 [TestNG-tests-4] [LogUtils] - Driver for Screenshot: EdgeDriver: msedge on mac (d92a6db16f9f34929004805f1522bf80)
+[INFO] 02-11-2023 10:31:28 [TestNG-tests-4] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:31:28 [TestNG-tests-4] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[ERROR] 02-11-2023 10:31:28 [TestNG-tests-4] [LogUtils] - FAILED !! Screenshot for test case: TC_AddNewProductAdmin
+[ERROR] 02-11-2023 10:31:28 [TestNG-tests-4] [LogUtils] - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src\test\resources\testdataCMS\gio-qua-2.jpg
+  (Session info: MicrosoftEdge=118.0.2088.76)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d92a6db16f9f34929004805f1522bf80, sendKeysToElement {id=97332EBCC2719D326DAB28553660E26E_element_120, value=[Ljava.lang.CharSequence;@54c98068}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.76, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51496}, msedge: {msedgedriverVersion: 118.0.2088.76 (d3ddcf1d51d5..., userDataDir: /var/folders/n5/8_wzkl796_n...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51496/devtoo..., se:cdpVersion: 118.0.2088.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on mac (d92a6db16f9f34929004805f1522bf80)] -> xpath: //input[@class = 'uppy-Dashboard-input']]
+Session ID: d92a6db16f9f34929004805f1522bf80
+[INFO] 02-11-2023 10:31:34 [main] [LogUtils] - End Suite: Regression Tests CMS
+[INFO] 02-11-2023 10:32:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 02-11-2023 10:32:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 02-11-2023 10:32:47 [main] [LogUtils] - Starting Suite: Regression Tests CMS
+[INFO] 02-11-2023 10:32:47 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Excel File: /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:32:47 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:32:50 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Row: 2 - Column: 11
+[INFO] 02-11-2023 10:32:50 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - StartRow: 2 - EndRow: 2
+[INFO] 02-11-2023 10:32:57 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:33:02 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:33:02 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:33:02 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:33:02 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:33:12 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:33:13 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:33:13 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:33:13 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:33:13 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:33:13 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:33:15 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:33:16 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:33:16 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:33:16 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:33:16 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:33:16 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:33:18 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:33:19 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:33:19 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:33:19 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:33:19 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text Giỏ quà Tết juuXo on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:33:19 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:33:19 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:33:19 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:33:20 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:33:20 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:33:20 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:33:20 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:33:20 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:33:20 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:33:20 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:33:20 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:33:21 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:33:21 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:33:23 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:33:23 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Upload New']
+[WARN] 02-11-2023 10:33:23 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Test case: TC_AddNewProductAdmin is skipped.
+[INFO] 02-11-2023 10:33:23 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on mac (ba9b26faec10f51b3463ab1a92176ca2)
+[INFO] 02-11-2023 10:33:24 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:33:24 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[INFO] 02-11-2023 10:33:27 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:33:32 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:33:32 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:33:32 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:33:32 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:33:35 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:33:35 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:33:35 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:33:35 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:33:36 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:33:36 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:33:38 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:33:38 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:33:38 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:33:38 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:33:38 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:33:39 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:33:41 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:33:41 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:33:41 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:33:41 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:33:41 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text Giỏ quà Tết axCis on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:33:41 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:33:42 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:33:42 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:33:42 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:33:42 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:33:42 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:33:43 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:33:43 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:33:43 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:33:43 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:33:43 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:33:43 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:33:43 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:33:45 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Scroll to element By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:33:55 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Upload New']
+[ERROR] 02-11-2023 10:33:56 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Test case: TC_AddNewProductAdmin is failed.
+[INFO] 02-11-2023 10:33:56 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on mac (9b41a5f8cb94a863fac3b8d3936bce73)
+[INFO] 02-11-2023 10:33:56 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:33:56 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[ERROR] 02-11-2023 10:33:56 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - FAILED !! Screenshot for test case: TC_AddNewProductAdmin
+[ERROR] 02-11-2023 10:33:56 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src\test\resources\testdataCMS\gio-qua-2.jpg
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b41a5f8cb94a863fac3b8d3936bce73, sendKeysToElement {id=8F6B2A2AC8DAC5E70A9A8FEE4F80A263_element_126, value=[Ljava.lang.CharSequence;@16fb1618}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/n5/8_wzkl796_n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51566}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51566/devtoo..., se:cdpVersion: 118.0.5993.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (9b41a5f8cb94a863fac3b8d3936bce73)] -> xpath: //input[@class = 'uppy-Dashboard-input']]
+Session ID: 9b41a5f8cb94a863fac3b8d3936bce73
+[INFO] 02-11-2023 10:34:02 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Excel File: /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:34:02 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:34:02 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Row: 2 - Column: 11
+[INFO] 02-11-2023 10:34:02 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - StartRow: 2 - EndRow: 2
+[INFO] 02-11-2023 10:34:04 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:34:04 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:34:04 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:34:04 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:34:04 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:34:07 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:34:07 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:34:07 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:34:07 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:34:07 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:34:07 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:34:07 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[ERROR] 02-11-2023 10:34:18 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Element not exist. By.xpath: //img[@alt='Active eCommerce CMS']
+[WARN] 02-11-2023 10:34:18 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Test case: TC_AddNewProductAdmin is skipped.
+[INFO] 02-11-2023 10:34:18 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Driver for Screenshot: SafariDriver: Safari on mac (33B02C3B-AE50-41E6-A939-E257EF4EFFE5)
+[INFO] 02-11-2023 10:34:18 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:34:18 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:34:19 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:34:24 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:34:24 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:34:24 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:34:24 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:34:27 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:34:27 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:34:28 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:34:28 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:34:28 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:34:28 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:34:28 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[ERROR] 02-11-2023 10:34:38 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Element not exist. By.xpath: //img[@alt='Active eCommerce CMS']
+[ERROR] 02-11-2023 10:34:38 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Test case: TC_AddNewProductAdmin is failed.
+[INFO] 02-11-2023 10:34:38 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Driver for Screenshot: SafariDriver: Safari on mac (C420D47B-A50B-441B-B7B9-1C52CADE7D84)
+[INFO] 02-11-2023 10:34:38 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:34:38 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/login
+[ERROR] 02-11-2023 10:34:38 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - FAILED !! Screenshot for test case: TC_AddNewProductAdmin
+[ERROR] 02-11-2023 10:34:38 [TestNG-test=Tests Add Product CMS Safari-1] [LogUtils] - java.lang.AssertionError: Element not exist. By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:34:44 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Excel File: /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:34:44 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:34:44 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Row: 2 - Column: 11
+[INFO] 02-11-2023 10:34:44 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - StartRow: 2 - EndRow: 2
+[INFO] 02-11-2023 10:34:51 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:34:56 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:34:56 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:34:56 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:34:56 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:35:00 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:35:00 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:35:00 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:35:00 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:35:00 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:35:00 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:35:02 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:35:02 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:35:03 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:35:03 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:35:03 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:35:04 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:35:12 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:35:12 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:35:12 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:35:13 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:35:13 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text Giỏ quà Tết CEObT on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:35:13 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:35:13 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:35:14 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:35:14 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:35:14 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:35:14 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:35:14 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:35:14 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:35:14 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:35:14 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:35:14 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:35:14 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:35:14 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:35:16 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Scroll to element By.xpath: //a[normalize-space()='Upload New']
+[ERROR] 02-11-2023 10:35:27 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Timeout waiting for the element Visible. By.xpath: //a[normalize-space()='Upload New']
+[WARN] 02-11-2023 10:35:27 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Test case: TC_AddNewProductAdmin is skipped.
+[INFO] 02-11-2023 10:35:27 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Driver for Screenshot: FirefoxDriver: firefox on mac (57999585-865f-470a-8b5e-71ceb386284f)
+[INFO] 02-11-2023 10:35:27 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:35:27 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[INFO] 02-11-2023 10:35:34 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:35:39 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:35:39 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:35:39 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:35:39 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:35:42 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:35:42 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:35:42 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:35:42 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:35:42 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:35:42 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:35:44 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:35:45 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:35:45 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:35:45 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:35:45 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:35:45 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:35:48 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:35:48 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:35:48 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:35:48 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:35:48 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text Giỏ quà Tết qvZcE on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:35:48 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:35:48 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:35:48 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:35:49 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:35:49 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:35:49 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:35:49 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:35:49 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:35:49 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:35:49 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:35:49 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:35:49 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:35:50 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:35:53 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Scroll to element By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:36:02 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Upload New']
+[ERROR] 02-11-2023 10:36:02 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Test case: TC_AddNewProductAdmin is failed.
+[INFO] 02-11-2023 10:36:02 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Driver for Screenshot: FirefoxDriver: firefox on mac (113d976c-0efb-4e56-a41f-be85d77fe55a)
+[INFO] 02-11-2023 10:36:02 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:36:02 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[ERROR] 02-11-2023 10:36:02 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - FAILED !! Screenshot for test case: TC_AddNewProductAdmin
+[ERROR] 02-11-2023 10:36:02 [TestNG-test=Tests Add Product CMS Firefox-1] [LogUtils] - org.openqa.selenium.InvalidArgumentException: File not found: /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src\test\resources\testdataCMS\gio-qua-2.jpg
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '21'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [113d976c-0efb-4e56-a41f-be85d77fe55a, sendKeysToElement {id=dce9cce4-4aae-4ba9-8e75-996bd7784db7, value=[Ljava.lang.CharSequence;@2c244d3e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:35475, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 1580, moz:profile: /var/folders/n5/8_wzkl796_n..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:35475/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (113d976c-0efb-4e56-a41f-be85d77fe55a)] -> xpath: //input[@class = 'uppy-Dashboard-input']]
+Session ID: 113d976c-0efb-4e56-a41f-be85d77fe55a
+[INFO] 02-11-2023 10:36:09 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Excel File: /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:36:09 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:36:09 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Row: 2 - Column: 11
+[INFO] 02-11-2023 10:36:09 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - StartRow: 2 - EndRow: 2
+[INFO] 02-11-2023 10:36:14 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:36:14 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:36:14 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:36:14 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:36:14 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:36:16 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:36:16 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:36:17 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:36:17 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:36:17 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:36:17 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:36:19 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:36:19 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:36:19 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:36:19 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:36:19 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:36:20 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:36:22 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:36:22 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:36:22 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:36:22 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:36:22 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text Giỏ quà Tết zwAND on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:36:22 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:36:22 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:36:22 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:36:23 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:36:23 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:36:23 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:36:23 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:36:23 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:36:23 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:36:23 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:36:23 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:36:23 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:36:23 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:36:25 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Scroll to element By.xpath: //a[normalize-space()='Upload New']
+[ERROR] 02-11-2023 10:36:35 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Timeout waiting for the element Visible. By.xpath: //a[normalize-space()='Upload New']
+[WARN] 02-11-2023 10:36:36 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Test case: TC_AddNewProductAdmin is skipped.
+[INFO] 02-11-2023 10:36:36 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Driver for Screenshot: EdgeDriver: msedge on mac (950130472eb774eb271e94f9e43d2c2e)
+[INFO] 02-11-2023 10:36:37 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:36:37 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[INFO] 02-11-2023 10:36:42 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:36:47 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:36:47 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:36:47 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:36:47 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:36:49 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:36:49 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:36:49 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:36:49 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:36:50 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:36:50 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:36:51 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:36:51 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:36:51 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:36:51 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:36:52 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:36:53 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:36:55 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:36:55 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:36:55 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:36:55 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:36:55 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text Giỏ quà Tết Bverf on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:36:56 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:36:56 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:36:56 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:36:57 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:36:57 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:36:57 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:36:57 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:36:57 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:36:58 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:36:58 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:36:58 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:36:58 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:36:58 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:36:59 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Verify element visible By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:36:59 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Upload New']
+[ERROR] 02-11-2023 10:36:59 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Test case: TC_AddNewProductAdmin is failed.
+[INFO] 02-11-2023 10:36:59 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Driver for Screenshot: EdgeDriver: msedge on mac (aba7d4d3ff3cb0c6943f7eadf5badfc3)
+[INFO] 02-11-2023 10:37:00 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:37:00 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[ERROR] 02-11-2023 10:37:00 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - FAILED !! Screenshot for test case: TC_AddNewProductAdmin
+[ERROR] 02-11-2023 10:37:00 [TestNG-test=Tests Add Product CMS Edge-1] [LogUtils] - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src\test\resources\testdataCMS\gio-qua-2.jpg
+  (Session info: MicrosoftEdge=118.0.2088.76)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [aba7d4d3ff3cb0c6943f7eadf5badfc3, sendKeysToElement {id=42E284734A2D9B255BA1471C6ADDF030_element_129, value=[Ljava.lang.CharSequence;@454278c6}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.76, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52602}, msedge: {msedgedriverVersion: 118.0.2088.76 (d3ddcf1d51d5..., userDataDir: /var/folders/n5/8_wzkl796_n...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52602/devtoo..., se:cdpVersion: 118.0.2088.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on mac (aba7d4d3ff3cb0c6943f7eadf5badfc3)] -> xpath: //input[@class = 'uppy-Dashboard-input']]
+Session ID: aba7d4d3ff3cb0c6943f7eadf5badfc3
+[INFO] 02-11-2023 10:37:06 [main] [LogUtils] - End Suite: Regression Tests CMS
+[INFO] 02-11-2023 10:40:38 [main] [LogUtils] - Loaded all properties files.
+[INFO] 02-11-2023 10:40:38 [main] [LogUtils] - Loaded all properties files.
+[INFO] 02-11-2023 10:40:41 [main] [LogUtils] - Starting Suite: Regression Tests CRM
+[INFO] 02-11-2023 10:40:42 [TestNG-test=SignIn Test-1] [LogUtils] - Excel File: /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src/test/resources/testdataCRM/ClientsDataExcel.xlsx
+[INFO] 02-11-2023 10:40:42 [TestNG-test=SignIn Test-1] [LogUtils] - Sheet Name: SignIn
+[INFO] 02-11-2023 10:40:55 [TestNG-test=SignIn Test-1] [LogUtils] - Row: 2 - Column: 6
+[INFO] 02-11-2023 10:40:55 [TestNG-test=SignIn Test-1] [LogUtils] - StartRow: 1 - EndRow: 2
+[INFO] 02-11-2023 10:40:57 [TestNG-test=SignIn Test-3] [LogUtils] - Test case: signInWithClientRole is starting...
+[INFO] 02-11-2023 10:40:57 [TestNG-test=SignIn Test-2] [LogUtils] - Test case: signInWithAdminRole is starting...
+[INFO] 02-11-2023 10:40:57 [TestNG-test=SignIn Test-4] [LogUtils] - Test case: loginPerfexCRM is starting...
+[INFO] 02-11-2023 10:41:02 [TestNG-test=SignIn Test-2] [LogUtils] - Set Excel File: src/test/resources/testdataCRM/ClientsDataExcel.xlsx
+[INFO] 02-11-2023 10:41:02 [TestNG-test=SignIn Test-3] [LogUtils] - Set Excel File: src/test/resources/testdataCRM/ClientsDataExcel.xlsx
+[INFO] 02-11-2023 10:41:02 [TestNG-test=SignIn Test-2] [LogUtils] - Sheet Name: SignIn
+[INFO] 02-11-2023 10:41:02 [TestNG-test=SignIn Test-3] [LogUtils] - Sheet Name: SignIn
+[INFO] 02-11-2023 10:41:04 [TestNG-PoolService-1] [LogUtils] - Test case: signInWithDataProvider is starting...
+[INFO] 02-11-2023 10:41:04 [TestNG-PoolService-0] [LogUtils] - Test case: signInWithDataProvider is starting...
+[INFO] 02-11-2023 10:41:11 [TestNG-test=SignIn Test-4] [LogUtils] - Open website with URL: https://crm.anhtester.com/admin/authentication
+[INFO] 02-11-2023 10:41:11 [TestNG-test=SignIn Test-4] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:12 [TestNG-test=SignIn Test-4] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:13 [TestNG-test=SignIn Test-4] [LogUtils] - Clear and Fill admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:13 [TestNG-test=SignIn Test-3] [LogUtils] - Open website with URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:41:13 [TestNG-test=SignIn Test-4] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:13 [TestNG-test=SignIn Test-3] [LogUtils] - Get Current URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:41:13 [TestNG-test=SignIn Test-3] [LogUtils] - Verify Equals: https://rise.fairsketch.com/signin CONTAINS /signin
+[INFO] 02-11-2023 10:41:13 [TestNG-test=SignIn Test-3] [LogUtils] - Get Page Title: Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-3] [LogUtils] - Verify Equals: Sign in | RISE - Ultimate Project Manager and CRM = Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-4] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-3] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-2] [LogUtils] - Open website with URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-4] [LogUtils] - Clear and Fill 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-2] [LogUtils] - Get Current URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-3] [LogUtils] - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-2] [LogUtils] - Verify Equals: https://rise.fairsketch.com/signin CONTAINS /signin
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-2] [LogUtils] - Get Page Title: Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-2] [LogUtils] - Verify Equals: Sign in | RISE - Ultimate Project Manager and CRM = Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-4] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-3] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-2] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:14 [TestNG-test=SignIn Test-3] [LogUtils] - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:15 [TestNG-test=SignIn Test-3] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:15 [TestNG-test=SignIn Test-2] [LogUtils] - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:15 [TestNG-test=SignIn Test-2] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:15 [TestNG-test=SignIn Test-2] [LogUtils] - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:15 [TestNG-test=SignIn Test-2] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:15 [TestNG-test=SignIn Test-3] [LogUtils] - Set text client@demo.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:16 [TestNG-test=SignIn Test-3] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:16 [TestNG-test=SignIn Test-2] [LogUtils] - Set text admin@demo.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:16 [TestNG-test=SignIn Test-3] [LogUtils] - Set text riseDemo on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:16 [TestNG-test=SignIn Test-2] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:16 [TestNG-test=SignIn Test-3] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:41:17 [TestNG-test=SignIn Test-2] [LogUtils] - Set text riseDemo on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:17 [TestNG-test=SignIn Test-2] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:41:22 [TestNG-test=SignIn Test-3] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:41:22 [TestNG-test=SignIn Test-3] [LogUtils] - Get Current URL: https://rise.fairsketch.com/dashboard/index/1
+[INFO] 02-11-2023 10:41:23 [TestNG-test=SignIn Test-3] [LogUtils] - Verify Equals: https://rise.fairsketch.com/dashboard/index/1 CONTAINS /dashboard
+[INFO] 02-11-2023 10:41:23 [TestNG-test=SignIn Test-3] [LogUtils] - Get Page Title: Dashboard | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:41:23 [TestNG-test=SignIn Test-3] [LogUtils] - Verify Equals: Dashboard | RISE - Ultimate Project Manager and CRM CONTAINS Dashboard | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:41:23 [TestNG-test=SignIn Test-3] [LogUtils] - Test case: signInWithClientRole is passed.
+[INFO] 02-11-2023 10:41:24 [TestNG-PoolService-1] [LogUtils] - Open website with URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:41:24 [TestNG-PoolService-0] [LogUtils] - Open website with URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:41:24 [TestNG-PoolService-1] [LogUtils] - Get Current URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:41:24 [TestNG-PoolService-0] [LogUtils] - Get Current URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:41:24 [TestNG-PoolService-0] [LogUtils] - Verify Equals: https://rise.fairsketch.com/signin CONTAINS /signin
+[INFO] 02-11-2023 10:41:24 [TestNG-PoolService-1] [LogUtils] - Verify Equals: https://rise.fairsketch.com/signin CONTAINS /signin
+[INFO] 02-11-2023 10:41:24 [TestNG-PoolService-0] [LogUtils] - Get Page Title: Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:41:25 [TestNG-PoolService-0] [LogUtils] - Verify Equals: Sign in | RISE - Ultimate Project Manager and CRM = Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:41:25 [TestNG-PoolService-1] [LogUtils] - Get Page Title: Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:41:25 [TestNG-PoolService-1] [LogUtils] - Verify Equals: Sign in | RISE - Ultimate Project Manager and CRM = Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:41:25 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:25 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:25 [TestNG-PoolService-0] [LogUtils] - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:25 [TestNG-PoolService-1] [LogUtils] - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:25 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:25 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:26 [TestNG-PoolService-1] [LogUtils] - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:26 [TestNG-PoolService-0] [LogUtils] - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:26 [TestNG-test=SignIn Test-2] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:41:26 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:26 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:26 [TestNG-test=SignIn Test-2] [LogUtils] - Get Current URL: https://rise.fairsketch.com/dashboard/index/1
+[INFO] 02-11-2023 10:41:26 [TestNG-test=SignIn Test-2] [LogUtils] - Verify Equals: https://rise.fairsketch.com/dashboard/index/1 CONTAINS /dashboard
+[INFO] 02-11-2023 10:41:26 [TestNG-test=SignIn Test-2] [LogUtils] - Verify element present By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 02-11-2023 10:41:26 [TestNG-test=SignIn Test-2] [LogUtils] - Test case: signInWithAdminRole is passed.
+[INFO] 02-11-2023 10:41:26 [TestNG-PoolService-1] [LogUtils] - Set text client@demo.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:26 [TestNG-PoolService-0] [LogUtils] - Set text admin@demo.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:41:27 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:27 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:27 [TestNG-PoolService-0] [LogUtils] - Set text riseDemo on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:27 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:41:27 [TestNG-PoolService-1] [LogUtils] - Set text riseDemo on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:41:27 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:41:34 [TestNG-test=SignIn Test-4] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:41:34 [TestNG-test=SignIn Test-4] [LogUtils] - Get Page Title: Dashboard
+[INFO] 02-11-2023 10:41:34 [TestNG-test=SignIn Test-4] [LogUtils] - Verify Equals: Dashboard = Dashboard
+[INFO] 02-11-2023 10:41:34 [TestNG-test=SignIn Test-4] [LogUtils] - Test case: loginPerfexCRM is passed.
+[INFO] 02-11-2023 10:41:35 [TestNG-PoolService-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:41:35 [TestNG-PoolService-1] [LogUtils] - Get Current URL: https://rise.fairsketch.com/dashboard/index/1
+[INFO] 02-11-2023 10:41:35 [TestNG-PoolService-1] [LogUtils] - Verify Equals: https://rise.fairsketch.com/dashboard/index/1 CONTAINS /dashboard
+[INFO] 02-11-2023 10:41:35 [TestNG-PoolService-1] [LogUtils] - Test case: signInWithDataProvider is passed.
+[INFO] 02-11-2023 10:41:37 [TestNG-PoolService-0] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:41:37 [TestNG-PoolService-0] [LogUtils] - Get Current URL: https://rise.fairsketch.com/dashboard/index/1
+[INFO] 02-11-2023 10:41:37 [TestNG-PoolService-0] [LogUtils] - Verify Equals: https://rise.fairsketch.com/dashboard/index/1 CONTAINS /dashboard
+[INFO] 02-11-2023 10:41:37 [TestNG-PoolService-0] [LogUtils] - Test case: signInWithDataProvider is passed.
+[INFO] 02-11-2023 10:41:43 [main] [LogUtils] - End Suite: Regression Tests CRM
+[INFO] 02-11-2023 10:41:54 [main] [LogUtils] - Loaded all properties files.
+[INFO] 02-11-2023 10:41:54 [main] [LogUtils] - Starting Suite: Regression Tests CRM (0)
+[INFO] 02-11-2023 10:41:54 [TestNG-test=Client Test on Chrome-1] [LogUtils] - Excel File: /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src/test/resources/testdataCRM/ClientsDataExcel.xlsx
+[INFO] 02-11-2023 10:41:54 [TestNG-test=Client Test on Chrome-1] [LogUtils] - Sheet Name: Client
+[INFO] 02-11-2023 10:41:54 [TestNG-test=Client Test on Chrome-1] [LogUtils] - Row: 3 - Column: 14
+[INFO] 02-11-2023 10:41:54 [TestNG-test=Client Test on Chrome-1] [LogUtils] - StartRow: 1 - EndRow: 2
+[INFO] 02-11-2023 10:42:00 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Test case: testSearchClient is starting...
+[INFO] 02-11-2023 10:42:01 [TestNG-PoolService-1] [LogUtils] - Test case: testAddClient is starting...
+[INFO] 02-11-2023 10:42:01 [TestNG-PoolService-0] [LogUtils] - Test case: testAddClient is starting...
+[INFO] 02-11-2023 10:42:05 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Set Excel File: src/test/resources/testdataCRM/ClientsDataExcel.xlsx
+[INFO] 02-11-2023 10:42:05 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Sheet Name: SignIn
+[INFO] 02-11-2023 10:42:06 [TestNG-PoolService-1] [LogUtils] - Set Excel File: src/test/resources/testdataCRM/ClientsDataExcel.xlsx
+[INFO] 02-11-2023 10:42:06 [TestNG-PoolService-1] [LogUtils] - Sheet Name: SignIn
+[INFO] 02-11-2023 10:42:06 [TestNG-PoolService-0] [LogUtils] - Set Excel File: src/test/resources/testdataCRM/ClientsDataExcel.xlsx
+[INFO] 02-11-2023 10:42:06 [TestNG-PoolService-0] [LogUtils] - Sheet Name: SignIn
+[INFO] 02-11-2023 10:42:11 [TestNG-PoolService-0] [LogUtils] - Open website with URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:42:11 [TestNG-PoolService-0] [LogUtils] - Get Current URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:42:11 [TestNG-PoolService-0] [LogUtils] - Verify Equals: https://rise.fairsketch.com/signin CONTAINS /signin
+[INFO] 02-11-2023 10:42:11 [TestNG-PoolService-0] [LogUtils] - Get Page Title: Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:42:11 [TestNG-PoolService-0] [LogUtils] - Verify Equals: Sign in | RISE - Ultimate Project Manager and CRM = Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:42:12 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:42:12 [TestNG-PoolService-0] [LogUtils] - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:42:12 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Open website with URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:42:12 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Get Current URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:42:12 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify Equals: https://rise.fairsketch.com/signin CONTAINS /signin
+[INFO] 02-11-2023 10:42:12 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Get Page Title: Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:42:12 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify Equals: Sign in | RISE - Ultimate Project Manager and CRM = Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:42:13 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:42:13 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:42:13 [TestNG-PoolService-0] [LogUtils] - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:42:13 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:42:13 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:42:13 [TestNG-PoolService-1] [LogUtils] - Open website with URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:42:13 [TestNG-PoolService-1] [LogUtils] - Get Current URL: https://rise.fairsketch.com/signin
+[INFO] 02-11-2023 10:42:13 [TestNG-PoolService-1] [LogUtils] - Verify Equals: https://rise.fairsketch.com/signin CONTAINS /signin
+[INFO] 02-11-2023 10:42:14 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:42:14 [TestNG-PoolService-1] [LogUtils] - Get Page Title: Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:42:14 [TestNG-PoolService-1] [LogUtils] - Verify Equals: Sign in | RISE - Ultimate Project Manager and CRM = Sign in | RISE - Ultimate Project Manager and CRM
+[INFO] 02-11-2023 10:42:14 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:42:14 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:42:14 [TestNG-PoolService-0] [LogUtils] - Set text admin@demo.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:42:14 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:42:14 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:42:14 [TestNG-PoolService-1] [LogUtils] - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:42:15 [TestNG-PoolService-0] [LogUtils] - Set text riseDemo on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:42:15 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Set text admin@demo.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:42:15 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:42:15 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:42:15 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:42:15 [TestNG-PoolService-1] [LogUtils] - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:42:15 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:42:15 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Set text riseDemo on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:42:16 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:42:16 [TestNG-PoolService-1] [LogUtils] - Set text admin@demo.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:42:16 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:42:16 [TestNG-PoolService-1] [LogUtils] - Set text riseDemo on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:42:17 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:42:21 [TestNG-PoolService-0] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:42:21 [TestNG-PoolService-0] [LogUtils] - Get Current URL: https://rise.fairsketch.com/dashboard/index/1
+[INFO] 02-11-2023 10:42:21 [TestNG-PoolService-0] [LogUtils] - Verify Equals: https://rise.fairsketch.com/dashboard/index/1 CONTAINS /dashboard
+[INFO] 02-11-2023 10:42:21 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Clients']
+[INFO] 02-11-2023 10:42:22 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:42:22 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Get Current URL: https://rise.fairsketch.com/dashboard/index/1
+[INFO] 02-11-2023 10:42:22 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify Equals: https://rise.fairsketch.com/dashboard/index/1 CONTAINS /dashboard
+[INFO] 02-11-2023 10:42:22 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Clients']
+[INFO] 02-11-2023 10:42:22 [TestNG-PoolService-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Sign in']
+[INFO] 02-11-2023 10:42:22 [TestNG-PoolService-1] [LogUtils] - Get Current URL: https://rise.fairsketch.com/dashboard/index/1
+[INFO] 02-11-2023 10:42:22 [TestNG-PoolService-1] [LogUtils] - Verify Equals: https://rise.fairsketch.com/dashboard/index/1 CONTAINS /dashboard
+[INFO] 02-11-2023 10:42:23 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Clients']
+[INFO] 02-11-2023 10:42:23 [TestNG-PoolService-0] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Clients']
+[INFO] 02-11-2023 10:42:24 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Clients']
+[INFO] 02-11-2023 10:42:24 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:24 [TestNG-PoolService-1] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Clients']
+[INFO] 02-11-2023 10:42:24 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:24 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:24 [TestNG-PoolService-0] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 02-11-2023 10:42:25 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:25 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:25 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:25 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:25 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:25 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:25 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:25 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:25 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:25 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:25 [TestNG-PoolService-1] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 02-11-2023 10:42:25 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 02-11-2023 10:42:26 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:26 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:26 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:26 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:26 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:26 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:26 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:26 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:26 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:26 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:26 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:26 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:27 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:27 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Total clients']
+[INFO] 02-11-2023 10:42:27 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //ul[@id='client-tabs']//li[2]
+[INFO] 02-11-2023 10:42:27 [TestNG-PoolService-0] [LogUtils] - Clicked on the element By.xpath: //ul[@id='client-tabs']//li[2]
+[INFO] 02-11-2023 10:42:27 [TestNG-PoolService-0] [LogUtils] - JQuery is NOT Ready!
+[INFO] 02-11-2023 10:42:28 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //ul[@id='client-tabs']//li[2]
+[INFO] 02-11-2023 10:42:28 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //ul[@id='client-tabs']//li[2]
+[INFO] 02-11-2023 10:42:28 [TestNG-PoolService-1] [LogUtils] - Clicked on the element By.xpath: //ul[@id='client-tabs']//li[2]
+[INFO] 02-11-2023 10:42:28 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Clicked on the element By.xpath: //ul[@id='client-tabs']//li[2]
+[INFO] 02-11-2023 10:42:28 [TestNG-PoolService-1] [LogUtils] - JQuery is NOT Ready!
+[INFO] 02-11-2023 10:42:28 [TestNG-test=Client Test on Chrome-2] [LogUtils] - JQuery is NOT Ready!
+[INFO] 02-11-2023 10:42:29 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //a[normalize-space()='Add client']
+[INFO] 02-11-2023 10:42:29 [TestNG-PoolService-0] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Add client']
+[INFO] 02-11-2023 10:42:30 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //a[normalize-space()='Add client']
+[INFO] 02-11-2023 10:42:30 [TestNG-PoolService-1] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Add client']
+[INFO] 02-11-2023 10:42:30 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='company_name']
+[INFO] 02-11-2023 10:42:30 [TestNG-PoolService-0] [LogUtils] - Set text Anh Tester Client 0108A1 on By.xpath: //input[@id='company_name']
+[INFO] 02-11-2023 10:42:30 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']
+[INFO] 02-11-2023 10:42:31 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='company_name']
+[INFO] 02-11-2023 10:42:31 [TestNG-PoolService-1] [LogUtils] - Set text Anh Tester Client 0108A2 on By.xpath: //input[@id='company_name']
+[INFO] 02-11-2023 10:42:31 [TestNG-PoolService-0] [LogUtils] - Clicked on the element By.xpath: //div[@id='s2id_created_by']
+[INFO] 02-11-2023 10:42:31 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']
+[INFO] 02-11-2023 10:42:31 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //div[@id='select2-drop']//input
+[INFO] 02-11-2023 10:42:32 [TestNG-PoolService-0] [LogUtils] - Set text Mark Thomas on By.xpath: //div[@id='select2-drop']//input and press key ENTER
+[INFO] 02-11-2023 10:42:32 [TestNG-PoolService-1] [LogUtils] - Clicked on the element By.xpath: //div[@id='s2id_created_by']
+[INFO] 02-11-2023 10:42:32 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:32 [TestNG-PoolService-0] [LogUtils] - Set text Address 1 on By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:32 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //div[@id='select2-drop']//input
+[INFO] 02-11-2023 10:42:32 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='city']
+[INFO] 02-11-2023 10:42:33 [TestNG-PoolService-0] [LogUtils] - Set text Rochester on By.xpath: //input[@id='city']
+[INFO] 02-11-2023 10:42:33 [TestNG-PoolService-1] [LogUtils] - Set text Richard Gray on By.xpath: //div[@id='select2-drop']//input and press key ENTER
+[INFO] 02-11-2023 10:42:33 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='state']
+[INFO] 02-11-2023 10:42:33 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:33 [TestNG-PoolService-1] [LogUtils] - Set text Address 2 on By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:33 [TestNG-PoolService-0] [LogUtils] - Set text SA on By.xpath: //input[@id='state']
+[INFO] 02-11-2023 10:42:33 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='zip']
+[INFO] 02-11-2023 10:42:33 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='city']
+[INFO] 02-11-2023 10:42:34 [TestNG-PoolService-0] [LogUtils] - Set text 1001 on By.xpath: //input[@id='zip']
+[INFO] 02-11-2023 10:42:34 [TestNG-PoolService-1] [LogUtils] - Set text Rochester on By.xpath: //input[@id='city']
+[INFO] 02-11-2023 10:42:34 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='country']
+[INFO] 02-11-2023 10:42:34 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='state']
+[INFO] 02-11-2023 10:42:34 [TestNG-PoolService-0] [LogUtils] - Set text USA on By.xpath: //input[@id='country']
+[INFO] 02-11-2023 10:42:34 [TestNG-PoolService-1] [LogUtils] - Set text SA on By.xpath: //input[@id='state']
+[INFO] 02-11-2023 10:42:34 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='phone']
+[INFO] 02-11-2023 10:42:34 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='zip']
+[INFO] 02-11-2023 10:42:34 [TestNG-PoolService-0] [LogUtils] - Set text 123456 on By.xpath: //input[@id='phone']
+[INFO] 02-11-2023 10:42:34 [TestNG-PoolService-1] [LogUtils] - Set text 1002 on By.xpath: //input[@id='zip']
+[INFO] 02-11-2023 10:42:34 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='website']
+[INFO] 02-11-2023 10:42:35 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='country']
+[INFO] 02-11-2023 10:42:35 [TestNG-PoolService-1] [LogUtils] - Set text USA on By.xpath: //input[@id='country']
+[INFO] 02-11-2023 10:42:35 [TestNG-PoolService-0] [LogUtils] - Set text https://anhtester.com on By.xpath: //input[@id='website']
+[INFO] 02-11-2023 10:42:35 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='phone']
+[INFO] 02-11-2023 10:42:35 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='vat_number']
+[INFO] 02-11-2023 10:42:35 [TestNG-PoolService-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='phone']
+[INFO] 02-11-2023 10:42:35 [TestNG-PoolService-0] [LogUtils] - Set text 10 on By.xpath: //input[@id='vat_number']
+[INFO] 02-11-2023 10:42:35 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='website']
+[INFO] 02-11-2023 10:42:35 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: (//label[normalize-space()='Client groups']/following-sibling::div//input)[1]
+[INFO] 02-11-2023 10:42:36 [TestNG-PoolService-1] [LogUtils] - Set text https://anhtester.com on By.xpath: //input[@id='website']
+[INFO] 02-11-2023 10:42:36 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='vat_number']
+[INFO] 02-11-2023 10:42:36 [TestNG-PoolService-0] [LogUtils] - Set text VIP on By.xpath: (//label[normalize-space()='Client groups']/following-sibling::div//input)[1] and press key ENTER
+[INFO] 02-11-2023 10:42:36 [TestNG-PoolService-1] [LogUtils] - Set text 30 on By.xpath: //input[@id='vat_number']
+[INFO] 02-11-2023 10:42:36 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //div[@id='ajaxModalContent']//button[normalize-space()='Save']
+[INFO] 02-11-2023 10:42:36 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: (//label[normalize-space()='Client groups']/following-sibling::div//input)[1]
+[INFO] 02-11-2023 10:42:36 [TestNG-PoolService-0] [LogUtils] - Clicked on the element By.xpath: //div[@id='ajaxModalContent']//button[normalize-space()='Save']
+[INFO] 02-11-2023 10:42:37 [TestNG-PoolService-1] [LogUtils] - Set text Gold on By.xpath: (//label[normalize-space()='Client groups']/following-sibling::div//input)[1] and press key ENTER
+[INFO] 02-11-2023 10:42:37 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //div[@id='ajaxModalContent']//button[normalize-space()='Save']
+[INFO] 02-11-2023 10:42:37 [TestNG-PoolService-1] [LogUtils] - Clicked on the element By.xpath: //div[@id='ajaxModalContent']//button[normalize-space()='Save']
+[INFO] 02-11-2023 10:42:38 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //div[@id='client-table_filter']//input
+[INFO] 02-11-2023 10:42:39 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //div[@id='client-table_filter']//input
+[INFO] 02-11-2023 10:42:39 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Clear text in textbox By.xpath: //div[@id='client-table_filter']//input
+[INFO] 02-11-2023 10:42:39 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //div[@id='client-table_filter']//input
+[INFO] 02-11-2023 10:42:40 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //div[@id='client-table_filter']//input
+[INFO] 02-11-2023 10:42:40 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Set text Adrain Ondricka on By.xpath: //div[@id='client-table_filter']//input
+[INFO] 02-11-2023 10:42:40 [TestNG-PoolService-0] [LogUtils] - Set text Anh Tester Client 0108A1 on By.xpath: //div[@id='client-table_filter']//input
+[INFO] 02-11-2023 10:42:40 [TestNG-PoolService-1] [LogUtils] - Set text Anh Tester Client 0108A2 on By.xpath: //div[@id='client-table_filter']//input
+[INFO] 02-11-2023 10:42:43 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Number of results for keywords (Adrain Ondricka): 1
+[INFO] 02-11-2023 10:42:43 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 02-11-2023 10:42:43 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Row 1: true - Adrain Ondricka
+[INFO] 02-11-2023 10:42:44 [TestNG-PoolService-0] [LogUtils] - Number of results for keywords (Anh Tester Client 0108A1): 1
+[INFO] 02-11-2023 10:42:44 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 02-11-2023 10:42:44 [TestNG-PoolService-1] [LogUtils] - Number of results for keywords (Anh Tester Client 0108A2): 1
+[INFO] 02-11-2023 10:42:44 [TestNG-PoolService-0] [LogUtils] - Row 1: true - Anh Tester Client 0108A1
+[INFO] 02-11-2023 10:42:45 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 02-11-2023 10:42:45 [TestNG-PoolService-1] [LogUtils] - Row 1: true - Anh Tester Client 0108A2
+[INFO] 02-11-2023 10:42:45 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //table[@id='client-table']//tbody/tr[1]/td[2]/a
+[INFO] 02-11-2023 10:42:45 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //table[@id='client-table']//tbody/tr[1]/td[2]/a
+[INFO] 02-11-2023 10:42:46 [TestNG-PoolService-0] [LogUtils] - Clicked on the element By.xpath: //table[@id='client-table']//tbody/tr[1]/td[2]/a
+[INFO] 02-11-2023 10:42:46 [TestNG-PoolService-1] [LogUtils] - Clicked on the element By.xpath: //table[@id='client-table']//tbody/tr[1]/td[2]/a
+[INFO] 02-11-2023 10:42:47 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //a[normalize-space()='Client info']
+[INFO] 02-11-2023 10:42:47 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //a[normalize-space()='Client info']
+[INFO] 02-11-2023 10:42:48 [TestNG-PoolService-0] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Client info']
+[INFO] 02-11-2023 10:42:49 [TestNG-PoolService-1] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Client info']
+[INFO] 02-11-2023 10:42:49 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='type_organization']
+[INFO] 02-11-2023 10:42:50 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='company_name']
+[INFO] 02-11-2023 10:42:50 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='type_organization']
+[INFO] 02-11-2023 10:42:50 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='company_name']
+[INFO] 02-11-2023 10:42:51 [TestNG-PoolService-0] [LogUtils] - Scroll to element By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:51 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:52 [TestNG-PoolService-1] [LogUtils] - Scroll to element By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:52 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:52 [TestNG-PoolService-0] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 02-11-2023 10:42:52 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:52 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:52 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:52 [TestNG-PoolService-1] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 02-11-2023 10:42:52 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:52 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:52 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:52 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:52 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:53 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:53 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:53 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:53 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:53 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:53 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:53 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //div[@id='s2id_created_by']//a[@class='select2-choice']/span[1]
+[INFO] 02-11-2023 10:42:53 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:53 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:53 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:54 [TestNG-PoolService-0] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 02-11-2023 10:42:54 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:54 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:54 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:54 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:54 [TestNG-PoolService-1] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 02-11-2023 10:42:54 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:54 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:54 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:54 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:54 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:55 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:55 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:55 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:55 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:55 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='city']
+[INFO] 02-11-2023 10:42:55 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //textarea[@id='address']
+[INFO] 02-11-2023 10:42:55 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='state']
+[INFO] 02-11-2023 10:42:55 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='city']
+[INFO] 02-11-2023 10:42:56 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='zip']
+[INFO] 02-11-2023 10:42:56 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='state']
+[INFO] 02-11-2023 10:42:56 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='country']
+[INFO] 02-11-2023 10:42:56 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //div[@id='client-table_filter']//input
+[INFO] 02-11-2023 10:42:56 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Clear text in textbox By.xpath: //div[@id='client-table_filter']//input
+[INFO] 02-11-2023 10:42:56 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='phone']
+[INFO] 02-11-2023 10:42:56 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='zip']
+[INFO] 02-11-2023 10:42:56 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //div[@id='client-table_filter']//input
+[INFO] 02-11-2023 10:42:56 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='website']
+[INFO] 02-11-2023 10:42:56 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='country']
+[INFO] 02-11-2023 10:42:56 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Set text Birdie Erdman on By.xpath: //div[@id='client-table_filter']//input
+[INFO] 02-11-2023 10:42:56 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //input[@id='vat_number']
+[INFO] 02-11-2023 10:42:56 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='phone']
+[INFO] 02-11-2023 10:42:57 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:57 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='website']
+[INFO] 02-11-2023 10:42:57 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:57 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //input[@id='vat_number']
+[INFO] 02-11-2023 10:42:57 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:57 [TestNG-PoolService-0] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 02-11-2023 10:42:57 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:57 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:57 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:57 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:57 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:58 [TestNG-PoolService-1] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 02-11-2023 10:42:58 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:58 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:58 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:58 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:58 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:58 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:58 [TestNG-PoolService-0] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:58 [TestNG-PoolService-0] [LogUtils] - Test case: testAddClient is passed.
+[INFO] 02-11-2023 10:42:58 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:59 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:59 [TestNG-PoolService-1] [LogUtils] - Verify element visible By.xpath: //li[@class='select2-search-choice']/div
+[INFO] 02-11-2023 10:42:59 [TestNG-PoolService-1] [LogUtils] - Test case: testAddClient is passed.
+[INFO] 02-11-2023 10:42:59 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Number of results for keywords (Birdie Erdman): 1
+[INFO] 02-11-2023 10:43:00 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 02-11-2023 10:43:00 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Row 1: true - Birdie Erdman
+[INFO] 02-11-2023 10:43:00 [TestNG-test=Client Test on Chrome-2] [LogUtils] - Test case: testSearchClient is passed.
+[INFO] 02-11-2023 10:43:05 [main] [LogUtils] - End Suite: Regression Tests CRM (0)
+[INFO] 02-11-2023 10:43:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 02-11-2023 10:43:06 [main] [LogUtils] - Starting Suite: Regression Tests CMS
+[INFO] 02-11-2023 10:43:15 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Test case: TC_LoginSuccessWithCustomerAccount is starting...
+[INFO] 02-11-2023 10:43:15 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Test case: TC_LoginFailWithIncorrectPassword is starting...
+[INFO] 02-11-2023 10:43:15 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Test case: TC_LoginFailWithEmailDoesNotExist is starting...
+[INFO] 02-11-2023 10:43:16 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Test case: TC_LoginFailWithNullPassword is starting...
+[INFO] 02-11-2023 10:43:16 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Test case: TC_LoginFailWithEmailNull is starting...
+[INFO] 02-11-2023 10:43:20 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:43:20 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:43:20 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:43:20 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:43:21 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:43:21 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:43:21 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:43:21 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:43:36 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Open website with URL: https://cms.anhtester.com
+[INFO] 02-11-2023 10:43:36 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Open website with URL: https://cms.anhtester.com
+[INFO] 02-11-2023 10:43:36 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Verify element visible By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:43:36 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:43:36 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Clicked on the element By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:43:36 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:43:37 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:43:37 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:43:37 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:43:37 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:43:37 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Verify element visible By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:43:37 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:43:42 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Open website with URL: https://cms.anhtester.com
+[INFO] 02-11-2023 10:43:42 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Open website with URL: https://cms.anhtester.com
+[INFO] 02-11-2023 10:43:42 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Open website with URL: https://cms.anhtester.com
+[INFO] 02-11-2023 10:43:42 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Verify element visible By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:43:42 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Verify element visible By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:43:44 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Verify element visible By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:43:44 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Clicked on the element By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:43:44 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:43:44 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h1[normalize-space() = 'Login to your account.']
+[INFO] 02-11-2023 10:43:44 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Verify element visible By.xpath: //h1[normalize-space() = 'Login to your account.']
+[INFO] 02-11-2023 10:43:44 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Clicked on the element By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:43:44 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Clicked on the element By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:43:44 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Clicked on the element By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:43:44 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:43:44 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:43:44 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:43:44 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:43:45 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:43:45 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:43:45 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Verify element visible By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:43:45 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Verify element visible By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:43:45 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Verify element visible By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:43:46 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:43:46 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:43:47 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Set text customer@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:43:47 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:43:47 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:43:47 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Clicked on the element By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:43:48 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:43:48 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Clicked on the element By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:43:48 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Verify element visible By.xpath: //h1[normalize-space() = 'Login to your account.']
+[INFO] 02-11-2023 10:43:48 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Set text 123 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:43:48 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Clicked on the element By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:43:48 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Verify element visible By.xpath: //h1[normalize-space() = 'Login to your account.']
+[INFO] 02-11-2023 10:43:48 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Verify element visible By.xpath: //h1[normalize-space() = 'Login to your account.']
+[INFO] 02-11-2023 10:43:48 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:43:48 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:43:49 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //strong[contains(text(),'The email field is required when phone is not present.')]
+[INFO] 02-11-2023 10:43:50 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //strong[contains(text(),'The email field is required when phone is not present.')]
+[INFO] 02-11-2023 10:43:50 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Verify Equals: The email field is required when phone is not present. = The email field is required when phone is not present.
+[INFO] 02-11-2023 10:43:50 [TestNG-test=Login Test CMS Chrome-1] [LogUtils] - Test case: TC_LoginFailWithEmailNull is passed.
+[INFO] 02-11-2023 10:43:50 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:43:50 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:43:50 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:43:51 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Set text cashierngan001@gmail.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:43:51 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Set text cashierngan001@gmail.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:43:51 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Set text customer@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:43:53 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:43:53 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:43:53 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:43:53 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:43:53 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:43:54 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:43:54 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:43:54 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:43:54 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Verify element visible By.xpath: //span[@data-notify='message']
+[INFO] 02-11-2023 10:43:54 [TestNG-test=Login Test CMS Chrome-4] [LogUtils] - Test case: TC_LoginFailWithIncorrectPassword is passed.
+[INFO] 02-11-2023 10:43:54 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:43:54 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:43:56 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:43:56 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:43:57 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Verify element present By.xpath: //input[contains(@class, 'is-invalid') and @id = 'password']
+[INFO] 02-11-2023 10:43:57 [TestNG-test=Login Test CMS Chrome-3] [LogUtils] - Test case: TC_LoginFailWithNullPassword is passed.
+[INFO] 02-11-2023 10:43:57 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:43:57 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Verify element visible By.xpath: //span[@data-notify='message']
+[INFO] 02-11-2023 10:43:57 [TestNG-test=Login Test CMS Chrome-2] [LogUtils] - Test case: TC_LoginFailWithEmailDoesNotExist is passed.
+[INFO] 02-11-2023 10:43:58 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Verify element visible By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 02-11-2023 10:43:59 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Verify element visible By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 02-11-2023 10:43:59 [TestNG-test=Login Test CMS Chrome-5] [LogUtils] - Test case: TC_LoginSuccessWithCustomerAccount is passed.
+[INFO] 02-11-2023 10:44:04 [main] [LogUtils] - End Suite: Regression Tests CMS
+[INFO] 02-11-2023 10:44:05 [main] [LogUtils] - Loaded all properties files.
+[INFO] 02-11-2023 10:44:05 [main] [LogUtils] - Starting Suite: Regression Tests CMS (0)
+[INFO] 02-11-2023 10:44:05 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Excel File: /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:44:05 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:44:05 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Row: 2 - Column: 11
+[INFO] 02-11-2023 10:44:05 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - StartRow: 2 - EndRow: 2
+[INFO] 02-11-2023 10:44:12 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:44:17 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:44:17 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:44:18 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:44:18 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:44:20 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:44:20 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:44:21 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:44:21 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:44:21 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:44:21 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:44:23 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:44:23 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:44:23 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:44:23 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:44:24 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:44:24 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:44:27 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:44:27 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:44:27 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:44:27 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:44:27 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text Giỏ quà Tết PqzMC on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:44:28 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:44:28 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:44:28 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:44:28 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:44:29 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:44:29 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:44:29 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:44:29 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:44:30 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:44:30 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:44:30 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:44:30 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:44:30 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:44:31 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:44:32 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Upload New']
+[WARN] 02-11-2023 10:44:32 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Test case: TC_AddNewProductAdmin is skipped.
+[INFO] 02-11-2023 10:44:32 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on mac (7424468843c7d016b46002c5221a95f5)
+[INFO] 02-11-2023 10:44:33 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:44:33 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[INFO] 02-11-2023 10:44:37 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Test case: TC_AddNewProductAdmin is starting...
+[INFO] 02-11-2023 10:44:42 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:44:42 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:44:42 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/CMS_DATA.xlsx
+[INFO] 02-11-2023 10:44:42 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Sheet Name: AddProduct
+[INFO] 02-11-2023 10:44:45 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 02-11-2023 10:44:45 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:44:45 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:44:45 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:44:45 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:44:46 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:44:48 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:44:48 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:44:48 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //img[@alt='Active eCommerce CMS']
+[INFO] 02-11-2023 10:44:48 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:44:48 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 02-11-2023 10:44:49 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:44:51 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: (//span[normalize-space()='Add New Product'])[1]
+[INFO] 02-11-2023 10:44:51 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Add New Product']
+[INFO] 02-11-2023 10:44:51 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Information']
+[INFO] 02-11-2023 10:44:51 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:44:52 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text Giỏ quà Tết gcyyw on By.xpath: //input[@placeholder='Product Name']
+[INFO] 02-11-2023 10:44:52 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:44:52 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[@data-id= 'category_id']
+[INFO] 02-11-2023 10:44:52 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 02-11-2023 10:44:53 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text Pie on By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search'] and press key ENTER
+[INFO] 02-11-2023 10:44:53 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:44:53 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text g on By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 02-11-2023 10:44:53 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:44:53 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text 1500 on By.xpath: //input[@name='weight']
+[INFO] 02-11-2023 10:44:54 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:44:54 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Set text quatet on By.xpath: //span[@aria-placeholder='Type and hit enter to add a tag']
+[INFO] 02-11-2023 10:44:54 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h5[normalize-space()='Product Images']
+[INFO] 02-11-2023 10:44:54 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:44:54 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //label[contains(text(),'Gallery Images')]/following-sibling::div//div[contains(text(),'Choose File')]
+[INFO] 02-11-2023 10:44:57 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Scroll to element By.xpath: //a[normalize-space()='Upload New']
+[INFO] 02-11-2023 10:44:59 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //a[normalize-space()='Upload New']
+[ERROR] 02-11-2023 10:45:01 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Test case: TC_AddNewProductAdmin is failed.
+[INFO] 02-11-2023 10:45:01 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on mac (bf32e7cf936c7bf104c31651492bd736)
+[INFO] 02-11-2023 10:45:01 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Screenshot taken: TC_AddNewProductAdmin
+[INFO] 02-11-2023 10:45:01 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin/products/create
+[ERROR] 02-11-2023 10:45:01 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - FAILED !! Screenshot for test case: TC_AddNewProductAdmin
+[ERROR] 02-11-2023 10:45:01 [TestNG-test=Tests Add Product CMS Chrome-1] [LogUtils] - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/mac/eclipse-workspace/AutomationFrameworkSelenium/src\test\resources\testdataCMS\gio-qua-2.jpg
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf32e7cf936c7bf104c31651492bd736, sendKeysToElement {id=F88FE127B50F1213D6C61C89185BAE03_element_120, value=[Ljava.lang.CharSequence;@1ea4a6b7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/n5/8_wzkl796_n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52909/devtoo..., se:cdpVersion: 118.0.5993.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (bf32e7cf936c7bf104c31651492bd736)] -> xpath: //input[@class = 'uppy-Dashboard-input']]
+Session ID: bf32e7cf936c7bf104c31651492bd736
+[INFO] 02-11-2023 10:45:08 [main] [LogUtils] - End Suite: Regression Tests CMS (0)
+[INFO] 02-11-2023 10:45:11 [main] [LogUtils] - Loaded all properties files.
+[INFO] 02-11-2023 10:45:11 [main] [LogUtils] - Starting Suite: Regression Tests CMS (1)
+[INFO] 02-11-2023 10:45:14 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Test case: TC_OrderProduct is starting...
+[INFO] 02-11-2023 10:45:19 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:45:19 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:45:24 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Open website with URL: https://cms.anhtester.com
+[INFO] 02-11-2023 10:45:25 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:45:25 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:45:25 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:45:25 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:45:26 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:45:27 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:45:28 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h1[normalize-space() = 'Login to your account.']
+[INFO] 02-11-2023 10:45:30 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:45:30 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Set text customer@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:45:30 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:45:30 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:45:31 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:45:31 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:45:31 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:45:34 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:45:35 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 02-11-2023 10:45:35 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 02-11-2023 10:45:35 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='search']
+[INFO] 02-11-2023 10:45:35 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Set text Gio qua Tet hquHA on By.xpath: //input[@id='search']
+[INFO] 02-11-2023 10:45:35 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - JQuery is NOT Ready!
+[INFO] 02-11-2023 10:45:43 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //div[@id='search-content']//div[contains(text(),'Gio qua Tet hquHA')]
+[INFO] 02-11-2023 10:45:46 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //div[@id='search-content']//div[contains(text(),'Gio qua Tet hquHA')]
+[INFO] 02-11-2023 10:45:46 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: (//div[text()='Discount Price:']/parent::div)/following-sibling::div//strong
+[INFO] 02-11-2023 10:45:46 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: (//div[text()='Discount Price:']/parent::div)/following-sibling::div//strong
+[INFO] 02-11-2023 10:45:46 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Scroll to element By.xpath: //button[@class='btn btn-soft-primary mr-2 add-to-cart fw-600']
+[INFO] 02-11-2023 10:45:47 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[@class='btn btn-soft-primary mr-2 add-to-cart fw-600']
+[INFO] 02-11-2023 10:45:47 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[@class='btn btn-soft-primary mr-2 add-to-cart fw-600']
+[ERROR] 02-11-2023 10:45:57 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Add to cart is failed. By.xpath: //h3[normalize-space()='Item added to your cart!']
+[WARN] 02-11-2023 10:45:58 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Test case: TC_OrderProduct is skipped.
+[INFO] 02-11-2023 10:45:58 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on mac (259683cf8bfcfbc13d750c66ec5dab57)
+[INFO] 02-11-2023 10:45:58 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Screenshot taken: TC_OrderProduct
+[INFO] 02-11-2023 10:45:58 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/product/gio-qua-tet-hquha
+[INFO] 02-11-2023 10:46:02 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Test case: TC_OrderProduct is starting...
+[INFO] 02-11-2023 10:46:07 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Set Excel File: src/test/resources/testdataCMS/Login.xlsx
+[INFO] 02-11-2023 10:46:07 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Sheet Name: Login
+[INFO] 02-11-2023 10:46:13 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Open website with URL: https://cms.anhtester.com
+[INFO] 02-11-2023 10:46:13 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:46:14 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[@data-key='website-popup']
+[INFO] 02-11-2023 10:46:15 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:46:15 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 02-11-2023 10:46:15 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:46:17 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: (//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li
+[INFO] 02-11-2023 10:46:17 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h1[normalize-space() = 'Login to your account.']
+[INFO] 02-11-2023 10:46:20 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:46:20 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Set text customer@example.com on By.xpath: //input[@id='email']
+[INFO] 02-11-2023 10:46:20 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:46:20 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:46:20 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:46:21 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 02-11-2023 10:46:21 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:46:24 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-11-2023 10:46:25 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 02-11-2023 10:46:25 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 02-11-2023 10:46:25 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='search']
+[INFO] 02-11-2023 10:46:25 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Set text Gio qua Tet hquHA on By.xpath: //input[@id='search']
+[INFO] 02-11-2023 10:46:25 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - JQuery is NOT Ready!
+[INFO] 02-11-2023 10:46:32 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //div[@id='search-content']//div[contains(text(),'Gio qua Tet hquHA')]
+[INFO] 02-11-2023 10:46:35 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //div[@id='search-content']//div[contains(text(),'Gio qua Tet hquHA')]
+[INFO] 02-11-2023 10:46:36 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: (//div[text()='Discount Price:']/parent::div)/following-sibling::div//strong
+[INFO] 02-11-2023 10:46:36 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: (//div[text()='Discount Price:']/parent::div)/following-sibling::div//strong
+[INFO] 02-11-2023 10:46:36 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Scroll to element By.xpath: //button[@class='btn btn-soft-primary mr-2 add-to-cart fw-600']
+[INFO] 02-11-2023 10:46:36 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[@class='btn btn-soft-primary mr-2 add-to-cart fw-600']
+[INFO] 02-11-2023 10:46:36 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[@class='btn btn-soft-primary mr-2 add-to-cart fw-600']
+[INFO] 02-11-2023 10:46:39 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //h3[normalize-space()='Item added to your cart!']
+[INFO] 02-11-2023 10:46:39 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Back to shopping']
+[INFO] 02-11-2023 10:46:39 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Back to shopping']
+[INFO] 02-11-2023 10:46:41 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@id='search']
+[INFO] 02-11-2023 10:46:42 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Set text Adobe Premiere Elements 2022 on By.xpath: //input[@id='search']
+[INFO] 02-11-2023 10:46:42 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - JQuery is NOT Ready!
+[INFO] 02-11-2023 10:46:50 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //div[@id='search-content']//div[contains(text(),'Adobe Premiere Elements 2022')]
+[INFO] 02-11-2023 10:46:55 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //div[@id='search-content']//div[contains(text(),'Adobe Premiere Elements 2022')]
+[INFO] 02-11-2023 10:46:55 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: (//div[text()='Discount Price:']/parent::div)/following-sibling::div//strong
+[INFO] 02-11-2023 10:46:55 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: (//div[text()='Discount Price:']/parent::div)/following-sibling::div//strong
+[INFO] 02-11-2023 10:46:55 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[contains(@data-type,'plus')]
+[INFO] 02-11-2023 10:46:55 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[contains(@data-type,'plus')]
+[INFO] 02-11-2023 10:46:57 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@name='quantity']
+[INFO] 02-11-2023 10:46:57 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Quantity Product 02: 2
+[INFO] 02-11-2023 10:46:57 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //input[@name='quantity']
+[INFO] 02-11-2023 10:46:57 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify Equals: 2 = 2
+[INFO] 02-11-2023 10:46:57 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Scroll to element By.xpath: //button[@class='btn btn-soft-primary mr-2 add-to-cart fw-600']
+[INFO] 02-11-2023 10:46:57 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Verify element visible By.xpath: //button[@class='btn btn-soft-primary mr-2 add-to-cart fw-600']
+[INFO] 02-11-2023 10:46:57 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Clicked on the element By.xpath: //button[@class='btn btn-soft-primary mr-2 add-to-cart fw-600']
+[ERROR] 02-11-2023 10:47:07 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Add to cart is failedBy.xpath: //h3[normalize-space()='Item added to your cart!']
+[ERROR] 02-11-2023 10:47:08 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Test case: TC_OrderProduct is failed.
+[INFO] 02-11-2023 10:47:08 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on mac (26f22b44f49ae7b394bbf5a68c260f2d)
+[INFO] 02-11-2023 10:47:08 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Screenshot taken: TC_OrderProduct
+[INFO] 02-11-2023 10:47:08 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/product/tet-tailoc-wmmyu
+[ERROR] 02-11-2023 10:47:08 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - FAILED !! Screenshot for test case: TC_OrderProduct
+[ERROR] 02-11-2023 10:47:08 [TestNG-test=Tests Order Product CMS Chrome-1] [LogUtils] - java.lang.AssertionError: Add to cart is failedBy.xpath: //h3[normalize-space()='Item added to your cart!']
+[INFO] 02-11-2023 10:47:15 [main] [LogUtils] - End Suite: Regression Tests CMS (1)

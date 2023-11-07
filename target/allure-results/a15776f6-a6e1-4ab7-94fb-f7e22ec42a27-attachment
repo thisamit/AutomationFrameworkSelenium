@@ -1,0 +1,1 @@
+Set text VIP on By.xpath: (//label[normalize-space()='Client groups']/following-sibling::div//input)[1] and press key ENTER
